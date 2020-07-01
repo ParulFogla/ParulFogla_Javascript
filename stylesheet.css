@@ -1,0 +1,125 @@
+.fa-graduation-cap{
+    color: white;
+    font-size: 25px;
+}
+
+.navbar-brand{
+    color:white;
+    font-weight: bold;
+}
+
+.fa-times{
+    font-size: 20px;
+    color:white;
+}
+
+form{
+    padding: 10px;
+    padding-top: 40px;
+}
+.form-control{
+    border: none;
+    background-color: transparent;
+    
+}
+
+.input-icon {
+    color:lightgrey;
+    position: relative;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.form-group{
+    border:lightgrey;
+    border-style: solid;
+    border-width: 0.09rem;
+    padding: 1px;
+    
+    
+}
+
+.btn-signIn{
+    color:white;
+    background: #4fd4dd;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.row{
+    margin-top: 10px;
+}
+
+.divider{
+    margin-top: 35px;
+    margin-bottom: 45px;
+}
+
+hr.hr-text{
+    position: relative;
+    border: none;
+    height: 1px;
+    background: lightgrey;
+    color: lightgrey;
+}
+hr.hr-text::before{
+    content:attr(data-content);
+    display: inline-block;
+    background: #fff;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color:lightgrey;
+    border-radius: 30rem;
+    padding: 0.2rem 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+   transform: translate(-50%,-50%);
+
+}
+
+.btn-fb{
+    background: #3b5998;
+}
+
+.fa-facebook{
+    font-size: 20px;
+    color: white;
+}
+
+.btn-google{
+    background: #db4a39;
+}
+
+.fa-google-plus{
+    font-size: 20px;
+    color: white;
+}
+
+.btn-logIn{
+    background: #cccc2a;
+    margin-top: 40px;
+    padding-top: 12px;
+    margin-bottom: 50px;
+   
+}
+.fa-angle-left{
+    color:white;
+    font-weight: lighter;
+    position: relative;
+    font-size: 20px;
+}
+.fa-angle-right{
+    color:white;
+    font-size: 20px;
+    font-weight: lighter;
+    position: relative;
+}
+.label-logIn{
+    color:white;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-right: 5px;
+   
+    
+}
